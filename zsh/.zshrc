@@ -166,3 +166,6 @@ export SDKMAN_DIR="$HOME/.sdkman"
 # unset __conda_setup
 # <<< conda initialize <<<
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+eval "$(zoxide init zsh)"
